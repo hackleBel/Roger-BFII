@@ -2,10 +2,12 @@
   --bg-body: #000;
   --bg-two-color: #1e1e1e;
   --three-color: rgb(80, 0, 0);
+  --text-color: #fff;
 }
 
 .LightTheme{
-  --bg-body: #b1b1b1;
-  --bg-two-color: #1e1e1e;
-  --three-color: rgb(80, 0, 0);
+  --bg-body: rgb(0, 255, 255);
+  --bg-two-color: rgb(0, 255, 255);
+  --three-color: #fff;
+  --text-color: #000;
 }
