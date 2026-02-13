@@ -1,7 +1,16 @@
 .nav {
- display: flex;
- align-items: center;
- justify-content: space-around;
- border-radius: 0 0 12px 12px;
- background-color: var(--three-color);
+  border-radius: 0 0 12px 12px;
+  margin-bottom: 10vh;
+}
+
+.nav__icon {
+ width: 55px;
+ height: 55px;
+}
+
+.nav__title,
+.nav__left {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
