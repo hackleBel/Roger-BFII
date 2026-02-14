@@ -16,6 +16,7 @@
   cursor: pointer;
   border-radius: 12px;
   box-shadow: 0px 1px 20px 1px var(--bg-body);
+  min-width: 210px;
 }
 .footer-links {
   display: flex;
