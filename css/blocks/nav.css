@@ -4,13 +4,16 @@
 }
 
 .nav__icon {
- width: 55px;
- height: 55px;
+  width: 55px;
+  height: 55px;
 }
 
 .nav__title,
-.nav__left {
+.nav__right {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+}
+.nav__right {
+  gap: 80px;
 }

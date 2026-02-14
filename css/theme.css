@@ -5,9 +5,9 @@
   --text-color: #fff;
 }
 
-.LightTheme{
-  --bg-body: rgb(0, 255, 255);
-  --bg-two-color: rgb(0, 255, 255);
-  --three-color: #fff;
+.LightTheme {
+  --bg-body: rgb(0, 116, 116);
+  --bg-two-color: rgb(0, 114, 114);
+  --three-color: rgb(200, 255, 255);
   --text-color: #000;
 }

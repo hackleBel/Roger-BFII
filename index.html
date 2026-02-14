@@ -9,13 +9,16 @@
   </head>
   <body class="DarkTheme">
     <nav class="container updown nav">
-      <a href="index.html"
-        ><div class="nav__title">
-          <img class="nav__icon" src="images/icon/Death_Star.png" alt="" />
-          <h1>ROGER BFII</h1>
-        </div></a
-      >
       <div class="nav__left">
+        <a href="index.html"
+          ><div class="nav__title">
+            <img class="nav__icon" src="images/icon/Death_Star.png" alt="" />
+            <h1>ROGER BFII</h1>
+          </div></a
+        >
+      </div>
+      <div class="nav__right">
+        <h2 class="nav__menu"><a href="#">MENU</a></h2>
         <h2 class="nav__perks"><a href="#">PERKS</a></h2>
         <h2 class="nav__setting"><a href="#">SETTING</a></h2>
       </div>
@@ -23,23 +26,54 @@
 
     <main class="container inside main">
       <div class="main_container_maps" id="mapsContainer"></div>
-      <div class="main_container_images"><img class="main_img" src="https://media.contentapi.ea.com/content/dam/eacom/images/2022/01/ea-star-wars-featured-image-web.png.adapt.crop191x100.628p.png" alt=""></div>
+      <div class="main_container_images">
+        <img
+          class="main_img"
+          src="https://media.contentapi.ea.com/content/dam/eacom/images/2022/01/ea-star-wars-featured-image-web.png.adapt.crop191x100.628p.png"
+          alt=""
+        />
+      </div>
     </main>
 
     <section class="container inside perk">2</section>
 
-    <section class="container inside setting">3</section>
+    <section class="container inside setting">
+      <div class="container_setting">
+        <div class="set_inside">
+          <h2 class="set_title">LANG</h2>
+          <div class="set_btn">
+            <h3 class="set_eng">ENG</h3>
+            <h3 class="set_rus">RUS</h3>
+          </div>
+        </div>
+
+        <div class="set_inside">
+          <h2 class="set_title">THEME</h2>
+          <div class="set_btn">
+            <h3 class="set_dark">DARK</h3>
+            <h3 class="set_light">LIGHT</h3>
+          </div>
+        </div>
+
+        <div class="set_inside">
+          <h2 class="set_title">feedback</h2>
+          <div class="set_btn">
+            <h3 class="set_call">call</h3>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <footer class="container updown footer">
       <div class="footer-links">
         <button class="discord footer-link">
           <img class="svg dis" src="images/icon/discord.svg" alt="" />
-          OUR DISCORD
+          DISCORD
         </button>
 
         <button class="nexus footer-link">
           <img class="svg" src="images/icon/nexus.svg" alt="" />
-          NEXUS BF2
+          NEXUS
         </button>
       </div>
     </footer>

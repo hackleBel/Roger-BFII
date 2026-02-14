@@ -10,6 +10,7 @@ body {
   justify-content: space-between;
   min-height: 100vh;
   background-color: var(--bg-body);
+  transition: opacity 8s ease;
 }
 
 a {
@@ -22,11 +23,11 @@ a {
   align-items: center;
   justify-content: space-around;
 
-  padding: 40px 0;
+  padding: 40px 40px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 24px;
-  width: 60%;
+  font-size: 20px;
+  width: 70%;
   max-width: 80%;
 
   overflow: hidden;
